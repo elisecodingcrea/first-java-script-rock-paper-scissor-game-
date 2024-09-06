@@ -1,45 +1,15 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rock Paper Scissors</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
-  <h1>Rock, Paper, Scissors Game</h1>
+    <h1>Rock, Paper, Scissors Game</h1>
+    <input type="text" id="userInput" placeholder="Enter rock, paper, or scissors">
+    <button onclick="playGame()">Play</button>
+    <p id="result"></p>
 
-  <!-- Game Form -->
-  <form>
-    <input type="radio" id="you-1" name="you" class="you">
-    <input type="radio" id="you-2" name="you" class="you">
-    <input type="radio" id="you-3" name="you" class="you">
-    <input type="radio" id="skynet-1" name="skynet" class="skynet">
-    <input type="radio" id="skynet-2" name="skynet" class="skynet">
-    <input type="radio" id="skynet-3" name="skynet" class="skynet">
-
-    <div class="options">
-      <label for="you-1" class="r">🪨</label>
-      <label for="you-2" class="p">📰</label>
-      <label for="you-3" class="s">✂️</label>
-    </div>
-
-    <div class="game">
-      <div class="go">
-        <label for="skynet-1">🪨</label>
-        <label for="skynet-2">📰</label>
-        <label for="skynet-3">✂️</label>
-      </div>
-    </div>
-
-    <div class="results">
-      <div class="win">Win</div>
-      <div class="lose">Lose</div>
-      <div class="tie">Tie</div>
-      <button type="reset">Play</button>
-    </div>
-  </form>
-
-  <!-- Include JavaScript file -->
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
